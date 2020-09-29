@@ -1,0 +1,43 @@
+div {
+    width: 100vh;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 40px;
+    border-bottom: gray solid;
+}
+
+p:nth-of-type(1) {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+ol {
+    margin-bottom: 40px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+p:nth-of-type(2) {
+    background-color: #e0f6ed;
+    border-radius: 4px;
+    padding: 25px;
+}
