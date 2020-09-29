@@ -24,6 +24,27 @@ h2 {
     margin-bottom: 40px;
 }
 
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #e0f6ed;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
 ul {
     margin-bottom: 40px;
 }
